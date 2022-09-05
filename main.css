@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: content-box; */
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #96deda, #50c9c3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.counters{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.counters span{
+    font-size: 15px;
+    color: gray;
+}
+#wordsCounter,
+#charactersCounter{
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    padding: 30px;
+    font-size: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.saveAsText{
+    padding: 20px 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.saveAsText input{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: pink;
+    border: none;
+}
+.saveAsText button{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(243, 77, 77);
+    color: rgb(234, 250, 90);
+}
+
+textarea{
+    color: black;
+    width: 90%;
+    height: 50%;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+    resize: none;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
